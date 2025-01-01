@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "media-web-parts-client-side-solution",
+    "id": "33bc05e3-8a23-4867-a416-955ee644be31",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MediaWebParts description"
+      },
+      "longDescription": {
+        "default": "MediaWebParts description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "media-web-parts Feature",
+        "description": "The feature that activates elements of the media-web-parts solution.",
+        "id": "4c5db490-401b-4ebc-a068-2d7c3e968c39",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/media-web-parts.sppkg"
+  }
+}
